@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+
+import GsapTo from "./pages/GsapTo";
+import GsapFrom from "./pages/GsapFrom";
+import GsapFromTo from "./pages/GsapFromTo";
+import GsapTimeline from "./pages/GsapTimeline";
+import GsapStagger from "./pages/GsapStagger";
+import GsapText from "./pages/GsapText";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className=" bg-gray-500 w-screen h-screen" >
+        {/*<GsapTo/>*/}
+
+        {/*<GsapFrom/>*/}
+
+        {/*  <GsapFromTo/>*/}
+
+        {/*  <GsapTimeline/>*/}
+
+        {/*  <GsapStagger/>*/}
+
+          <GsapText/>
+      </div>
+
   );
 }
 
